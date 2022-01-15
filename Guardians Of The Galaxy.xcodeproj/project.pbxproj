@@ -13,6 +13,11 @@
 		A318008F2792272700C3E2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A318008D2792272700C3E2A3 /* Main.storyboard */; };
 		A31800912792272900C3E2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31800902792272900C3E2A3 /* Assets.xcassets */; };
 		A31800942792272900C3E2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31800922792272900C3E2A3 /* LaunchScreen.storyboard */; };
+		A318009C27922B4C00C3E2A3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318009B27922B4C00C3E2A3 /* Models.swift */; };
+		A318009E279236A300C3E2A3 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318009D279236A300C3E2A3 /* Datas.swift */; };
+		A31800A02792393600C3E2A3 /* GardianCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318009F2792393600C3E2A3 /* GardianCellTableViewCell.swift */; };
+		A31800A22792465400C3E2A3 /* RoundBorderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31800A12792465400C3E2A3 /* RoundBorderImage.swift */; };
+		A31800A42792493E00C3E2A3 /* DetailGardianController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31800A32792493E00C3E2A3 /* DetailGardianController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A31800902792272900C3E2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A31800932792272900C3E2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31800952792272900C3E2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A318009B27922B4C00C3E2A3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A318009D279236A300C3E2A3 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		A318009F2792393600C3E2A3 /* GardianCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardianCellTableViewCell.swift; sourceTree = "<group>"; };
+		A31800A12792465400C3E2A3 /* RoundBorderImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBorderImage.swift; sourceTree = "<group>"; };
+		A31800A32792493E00C3E2A3 /* DetailGardianController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGardianController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,15 @@
 			children = (
 				A31800872792272700C3E2A3 /* AppDelegate.swift */,
 				A31800892792272700C3E2A3 /* SceneDelegate.swift */,
+				A318009B27922B4C00C3E2A3 /* Models.swift */,
+				A318009D279236A300C3E2A3 /* Datas.swift */,
 				A318008B2792272700C3E2A3 /* ViewController.swift */,
+				A318009F2792393600C3E2A3 /* GardianCellTableViewCell.swift */,
+				A31800A12792465400C3E2A3 /* RoundBorderImage.swift */,
+				A31800A32792493E00C3E2A3 /* DetailGardianController.swift */,
 				A318008D2792272700C3E2A3 /* Main.storyboard */,
-				A31800902792272900C3E2A3 /* Assets.xcassets */,
 				A31800922792272900C3E2A3 /* LaunchScreen.storyboard */,
+				A31800902792272900C3E2A3 /* Assets.xcassets */,
 				A31800952792272900C3E2A3 /* Info.plist */,
 			);
 			path = "Guardians Of The Galaxy";
@@ -140,7 +155,12 @@
 			files = (
 				A318008C2792272700C3E2A3 /* ViewController.swift in Sources */,
 				A31800882792272700C3E2A3 /* AppDelegate.swift in Sources */,
+				A31800A22792465400C3E2A3 /* RoundBorderImage.swift in Sources */,
+				A31800A02792393600C3E2A3 /* GardianCellTableViewCell.swift in Sources */,
+				A318009E279236A300C3E2A3 /* Datas.swift in Sources */,
+				A31800A42792493E00C3E2A3 /* DetailGardianController.swift in Sources */,
 				A318008A2792272700C3E2A3 /* SceneDelegate.swift in Sources */,
+				A318009C27922B4C00C3E2A3 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
